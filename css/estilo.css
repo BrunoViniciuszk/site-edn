@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* estilizando toda section Principal */
+
+section.Principal {
+
+    position: relative;
+    background-image: url('../cloud.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 100%;
+
+}
+
+.Centro {
+
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+.Transparencia {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+
+}
+
+section.Principal header {
+
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+}
+
+.Icones-Sociais {
+    float: right;
+}
+
+.Icones-Sociais a {
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.Logo {
+
+    margin-top: 20px;
+    float: left;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav.Desktop {
+
+    margin-top: 20px;
+    float: right;
+}
+
+nav.Desktop ul {
+
+
+    list-style-type: none;
+}
+
+nav.Desktop li {
+
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+nav.Desktop a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav.Desktop a:hover {
+
+    color: #2692ff;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+}
+
+nav.Mobile {
+    display: none;
+    float: right;
+}
+
+nav.Mobile i {
+
+    position: relative;
+    top: 23px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+
+
+
+}
+
+nav.Mobile ul {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 94px;
+    background: #fff;
+    list-style-type: none;
+    display: none;
+}
+
+nav.Mobile li {
+
+    font-weight: lighter;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 8px 0;
+
+
+}
+
+nav.Mobile a {
+
+    display: block;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.Conteudo-Cabecalho {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: 110px 0;
+
+}
+
+.Conteudo-Cabecalho h2 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 45px;
+
+}
+
+.Conteudo-Cabecalho h2>span {
+
+    color: steelblue;
+}
+
+.Conteudo-Cabecalho p {
+
+    color: #fff;
+    margin-top: 19px;
+    font-size: 17px;
+}
+
+.Conteudo-Cabecalho a {
+
+    display: block;
+    width: 180px;
+    height: 45px;
+    background: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 19px;
+    border-radius: 25px;
+    line-height: 45px;
+    border: 1px solid black;
+}
+
+.Conteudo-Cabecalho a:hover {
+    background-color: #ccc;
+}
+
+.Chamada-Cursos {
+
+    width: 100%;
+    text-align: center;
+    padding: 27px 2%;
+    background: rgb(112, 110, 110);
+}
+
+.Chamada-Cursos h2 {
+
+    display: inline-block;
+    border-bottom: 1px solid white;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 27px;
+
+}
+
+.Box-Cursos {
+
+    padding: 40px 0;
+}
+
+.Box-Cursos>.Centro {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Box-Cursos-Individual {
+
+    width: 20%;
+    padding: 0 40px;
+}
+
+.Box-Cursos-Conteudo {
+
+    border: 1px solid gray;
+    box-shadow: 10px 9px 5px -6px rgba(0, 0, 0, 0.7);
+    min-height: 266px;
+}
+
+.Box-Cursos-Individual h2 {
+
+    background: #2692ff;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    font-weight: lighter;
+}
+
+.Box-Cursos-Individual p {
+
+    margin-left: 20px;
+    color: gray;
+    font-size: 17px;
+    margin-top: 9px;
+}
+
+.Pontos-Cursos {
+
+    padding: 8px 0 15px 0;
+}
+
+.Preco {
+
+    margin-top: 10px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.Preco h2 {
+
+    font-size: 25px;
+    color: black;
+    padding: 0 20px;
+    background-color: transparent;
+    display: inline-block;
+    border-bottom: 1px solid gray;
+}
+
+/* estilizando toda section Sobre */
+
+section.Sobre {
+
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+    min-height: 300px;
+    background-image: url('../cloud-servicos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Transparencia {
+    z-index: 1;
+}
+
+section.Sobre>.Centro {
+
+    position: relative;
+    max-width: 960px;
+    color: #fff;
+    z-index: 2;
+}
+
+section.Sobre h2 {
+
+    text-align: center;
+}
+
+section.Sobre p {
+
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+/* estilizando toda section-curriculo */
+
+.section__container {
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__select__container {
+    background-color: var(--light-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    gap: 0.5rem;
+    width: 50%;
+    padding: 2rem;
+    border: solid 0.1rem var(--dark-blue);
+    border-radius: 0.2rem;
+    /* box-shadow: -10px 12px 0px #173D7B;*/
+}
+
+#curriculos {
+    /*background-color: var(--white);*/
+    padding: 0.2rem;
+    border: solid 0.02rem var(--dark-blue);
+    /* border-radius: 0.2rem;*/
+}
+
+#section__btn {
+    background-color: var(--dark-blue);
+    padding: 0.5rem;
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+#curriculos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+}
+
+#section__btn:hover {
+    background-color: #636466;
+    transition: all ease-in-out 0.2s;
+}
+
+
+/* estilizando toda section-info */
+
+section.Section-Info {
+
+    padding: 30px 0;
+
+}
+
+
+section.Section-Info h2 {
+
+    position: absolute;
+    margin-top: -20px;
+    color: #777;
+
+}
+
+.T50 {
+
+    /*float: left;*/
+    /*width: 50%;*/
+    padding: 0 20px;
+    margin: 30px 0;
+    display: flex;
+}
+
+section.Section-Info h2>.Borda-Efeito {
+    width: 50px;
+    height: 2px;
+    background: silver;
+    position: absolute;
+    transition: 0.7s;
+}
+
+section.Section-Info h2>.Borda-Efeito-ind {
+    width: 50px;
+    height: 2px;
+    background: silver;
+    position: absolute;
+    transition: 0.7s;
+}
+
+section.Section-Info h2:hover>.Borda-Efeito {
+    width: 240px;
+}
+
+section.Section-Info h2:hover>.Borda-Efeito-ind {
+    width: 180px;
+}
+
+.Contato form {
+    margin-top: 15px;
+}
+
+.Contato input:not([type="submit"]) {
+
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    display: block;
+    padding-left: 8px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.Contato textarea {
+
+    font-size: 15px;
+    width: 100%;
+    height: 210px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+.Contato input[type=submit] {
+
+    font-size: 15px;
+    cursor: pointer;
+    background: white;
+    color: black;
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+.Contato input:hover[type="submit"] {
+    background-color: #ccc;
+}
+
+.Time>.T50 {
+
+    width: 229px;
+    margin: 15px 1%;
+
+}
+
+.equipe-Individual {
+
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    /*min-height: 310px;*/
+    padding-bottom: 30px;
+    box-shadow: 10px 9px 5px -6px rgba(0, 0, 0, 0.7);
+
+
+}
+
+.Topo-Box-Usuario {
+
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.Box-Avatar {
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    vertical-align: middle;
+}
+
+.Info-Usuario {
+
+    display: inline-block;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 2%;
+    text-align: center;
+    color: #fff;
+    background: black;
+}
+
+img {
+    width: 100%;
+}
+
+.bt-comprar {
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px 0;
+}
+
+.bt-comprar button {
+    color: black;
+    border-radius: 15px;
+    font-size: 15px;
+    height: 29px;
+    width: 87px;
+}
+
+.bt-comprar button:hover {
+    background-color: #ccc;
+}
+
+#linkedin {
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a#linkedin:hover {
+    text-decoration: underline;
+}
+
+/* Iniciando responsividade */
+
+@media screen and (max-width:768px) {
+
+    nav.Mobile {
+        display: block;
+    }
+
+    nav.Desktop {
+        display: none;
+    }
+
+    .Box-Cursos-Individual {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+}
