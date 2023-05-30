@@ -568,3 +568,43 @@ a#linkedin:hover {
     }
 
 }
+
+@media screen and (max-width:600px) {
+
+    section.Section-Info h2 {
+        position: absolute;
+        margin-top: -31px;
+        color: #777;
+    }
+
+    .T50 {
+        float: left;
+        width: 50%;
+        /*padding: 0px 20px;*/
+        margin: 30px 0;
+        display: block;
+    }
+
+    .Time>.T50 {
+
+        width: 229px;
+        margin: 15px 1%;
+
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    .section__select__container {
+        background-color: var(--light-blue);
+        display: flex;
+        flex-direction: column;
+        align-items: justify;
+        gap: 0.5rem;
+        width: 100%;
+        padding: 2rem;
+        border: solid 0.1rem var(--dark-blue);
+        border-radius: 0.2rem;
+        /* box-shadow: -10px 12px 0px #173D7B; */
+    }
+}
